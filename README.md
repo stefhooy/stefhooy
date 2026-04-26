@@ -22,7 +22,7 @@ My projects don't follow a single theme: I've built a Bayesian model for predict
 Bayesian Network model predicting box office outcomes (Flop → Blockbuster) on ~2,900 films from TMDb (2000–2024). Full pipeline: API collection, feature engineering (actor prestige scoring, budget tiers, release windows), EDA, probabilistic inference, and a baseline ML comparison (logistic regression + random forest).
 
 - **[Datathon 2025 — 1st Place 🏆](https://github.com/vik01/datathon-2025)**  
-Won a time-bound datathon analyzing aviation traffic and CO2 emissions across European airspace using EUROCONTROL data (2010–2025). Built in Python with Tableau dashboards — identified trends between flight activity and environmental impact under competition conditions.
+Won a time-bound datathon analyzing aviation traffic and CO2 emissions across European airspace using EUROCONTROL data (2010–2025). Built in Python with Tableau dashboards, identified trends between flight activity and environmental impact under competition conditions.
 
 - **Budget Calculator: Exchange Edition**  
 Live Streamlit app for tracking spending across countries and currencies. Started as a personal tool during my winter 2024 exchange in Budapest, rebuilt in 2026 with multilingual support (EN/FR/ES), geographic spend maps, file import/export, and multi-currency conversion.
