@@ -21,9 +21,6 @@ My projects don't follow a single theme: I've built a Bayesian model for predict
 - **The Blockbuster Formula**  
 Bayesian Network model predicting box office outcomes (Flop → Blockbuster) on ~2,900 films from TMDb (2000–2024). Full pipeline: API collection, feature engineering (actor prestige scoring, budget tiers, release windows), EDA, probabilistic inference, and a baseline ML comparison (logistic regression + random forest).
 
-- **Box Office AI Agent**  
-Natural-language agent on top of the Blockbuster Formula. Ask it what drives blockbuster odds, run counterfactuals, explore what-if scenarios through conversation.
-
 - **[Datathon 2025 — 1st Place 🏆](https://github.com/vik01/datathon-2025)**  
 Won a time-bound datathon analyzing aviation traffic and CO2 emissions across European airspace using EUROCONTROL data (2010–2025). Built in Python with Tableau dashboards — identified trends between flight activity and environmental impact under competition conditions.
 
