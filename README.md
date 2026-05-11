@@ -18,11 +18,15 @@ My projects don't follow a single theme: I've built a Bayesian model for predict
 ---
 
 ## Projects on GitHub
-- **The Blockbuster Formula**  
-Bayesian Network model predicting box office outcomes (Flop → Blockbuster) on ~2,900 films from TMDb (2000–2024). Full pipeline: API collection, feature engineering (actor prestige scoring, budget tiers, release windows), EDA, probabilistic inference, and a baseline ML comparison (logistic regression + random forest).
 
-- **[Datathon 2025 — 1st Place 🏆](https://github.com/vik01/datathon-2025)**  
-Won a time-bound datathon analyzing aviation traffic and CO2 emissions across European airspace using EUROCONTROL data (2010–2025). Built in Python with Tableau dashboards, identified trends between flight activity and environmental impact under competition conditions.
+- **[Hermes - AI European Travel Planner](https://github.com/stefhooy/euro_ai_agent)**  
+AI travel agent that builds personalised multi-city European itineraries. Scores 80 European cities using a proximity-aware scoring system (activity match, budget fit, seasonality, and geographic routing from your departure city), estimates transport across flights, trains, and buses, pulls live Wikipedia descriptions and Open-Meteo weather data, and generates a 12-month pricing calendar. Runs fully locally using Ollama (llama3.1:8b) with no paid API keys required. Built with Python, Streamlit, LangChain, and Plotly. 90 automated tests.
+
+- **The Blockbuster Formula**  
+Bayesian Network model predicting box office outcomes (Flop to Blockbuster) on ~2,900 films from TMDb (2000-2024). Full pipeline: API collection, feature engineering (actor prestige scoring, budget tiers, release windows), EDA, probabilistic inference, and a baseline ML comparison (logistic regression + random forest).
+
+- **[Datathon 2025 - 1st Place 🏆](https://github.com/vik01/datathon-2025)**  
+Won a time-bound datathon analyzing aviation traffic and CO2 emissions across European airspace using EUROCONTROL data (2010-2025). Built in Python with Tableau dashboards, identified trends between flight activity and environmental impact under competition conditions.
 
 - **Budget Calculator: Exchange Edition**  
 Live Streamlit app for tracking spending across countries and currencies. Started as a personal tool during my winter 2024 exchange in Budapest, rebuilt in 2026 with multilingual support (EN/FR/ES), geographic spend maps, file import/export, and multi-currency conversion.
@@ -37,11 +41,11 @@ Python package for personal finance tracking with a companion Streamlit front-en
 Real-time pipeline using Apache NiFi + MinIO + Python for ingesting and analyzing crypto streams.
 
 - **Pygame Platformer**  
-2D platformer game. Event loops, collision detection, game state. Built as a pure interest project. Deployed on itch.io https://stefhooy.itch.io/tower-of-ie-the-wizard-climb 
+2D platformer game. Event loops, collision detection, game state. Built as a pure interest project. Deployed on itch.io https://stefhooy.itch.io/tower-of-ie-the-wizard-climb
 
 ---
 
-## **Outside the code**
+## Outside the code
 
 Music: EDM, Rock, Indie, Alternative, Jazz, Disco and 80s pop. Huge Queen fan.  
 Sports: volleyball and basketball.  
@@ -49,8 +53,7 @@ Also into photography, video editing.
 
 ---
 
-## *Currently Working On*
+## Currently Working On
 
-An AI travel agent for planning Eurotrips. Itinerary generation, budget estimation, and multi-city routing through conversation.
+A chess bot trained with reinforcement learning, teaching it to evaluate positions, plan ahead, and make better decisions to win.
 
----
