@@ -1,10 +1,7 @@
 <div align="center">
 
-<!-- Ocean wave banner -->
-<img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/header.svg" width="100%" alt="Night ocean with sailing boat" />
-
-<!-- Retro pixel name -->
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=26&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=Stephan+Pentchev" alt="Stephan Pentchev" />
+<!-- Name in Nabla font -->
+<img src="https://readme-typing-svg.demolab.com?font=Nabla&size=60&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=Stephan+Pentchev" alt="Stephan Pentchev" />
 
 <br/><br/>
 
