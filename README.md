@@ -1,21 +1,21 @@
 <div align="center">
 
 <!-- Retro pixel name -->
-<img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/name_retro (1).svg" alt="Stephan Pentchev" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117,0A3D62,00B4D8&height=160&text=Stephan%20Pentchev&fontFamily=Press+Start+2P&fontSize=32&fontColor=FFFFFF&animation=fadeIn&fontAlignY=65" alt="Stephan Pentchev" />
 
 <br/><br/>
 
 <!-- School logos -->
 <a href="https://www.uni-corvinus.hu/en/" target="_blank">
-  <img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/corvinus (1).png" height="60" alt="Corvinus University Budapest" title="Corvinus University Budapest" />
+  <img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/corvinus.png" height="60" alt="Corvinus University Budapest" title="Corvinus University Budapest" />
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.hec.ca/en/" target="_blank">
-  <img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/hec_montreal (1).png" height="60" alt="HEC Montréal" title="HEC Montréal" />
+  <img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/hec_montreal%20(1).png" height="60" alt="HEC Montréal" title="HEC Montréal" />
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.ie.edu/university/studies/academic-programs/master-business-analytics-data-science/" target="_blank">
-  <img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/ie_university (1).png" height="60" alt="IE University School of Science & Technology" title="IE University School of Science & Technology" />
+  <img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/ie_university%20(1).png" height="60" alt="IE University School of Science & Technology" title="IE University School of Science & Technology" />
 </a>
 
 <br/><br/>
