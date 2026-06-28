@@ -1,9 +1,9 @@
 <div align="center">
 
 <!-- Name in Nabla font -->
-<img src="https://readme-typing-svg.demolab.com?font=Nabla&size=60&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=Stephan+Pentchev" alt="Stephan Pentchev" />
+<img src="https://readme-typing-svg.demolab.com?font=Nabla&size=55&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=900&height=80&lines=Stephan+Pentchev" alt="Stephan Pentchev" />
 
-<br/><br/>
+### Education
 
 <!-- School logos -->
 <a href="https://www.uni-corvinus.hu/en/" target="_blank">
