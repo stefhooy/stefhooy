@@ -1,7 +1,10 @@
 <div align="center">
 
+<!-- Ocean wave banner -->
+<img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/header.svg" width="100%" alt="Night ocean with sailing boat" />
+
 <!-- Retro pixel name -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117,0A3D62,00B4D8&height=160&text=Stephan%20Pentchev&fontFamily=Press+Start+2P&fontSize=32&fontColor=FFFFFF&animation=fadeIn&fontAlignY=65" alt="Stephan Pentchev" />
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=26&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=Stephan+Pentchev" alt="Stephan Pentchev" />
 
 <br/><br/>
 

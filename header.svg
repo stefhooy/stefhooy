@@ -1,0 +1,108 @@
+<svg width="800" height="240" viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#020B18"/>
+      <stop offset="65%"  stop-color="#0D3B5E"/>
+      <stop offset="100%" stop-color="#0096C7"/>
+    </linearGradient>
+    <linearGradient id="wv1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#005F8A"/>
+      <stop offset="100%" stop-color="#03045E"/>
+    </linearGradient>
+    <linearGradient id="wv2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#00B4D8"/>
+      <stop offset="100%" stop-color="#0077B6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky/ocean background -->
+  <rect width="800" height="240" fill="url(#bg)"/>
+
+  <!-- Stars -->
+  <circle cx="32"  cy="14"  r="1.1" fill="white" opacity="0.90"/>
+  <circle cx="78"  cy="28"  r="0.7" fill="white" opacity="0.70"/>
+  <circle cx="145" cy="10"  r="0.9" fill="white" opacity="0.80"/>
+  <circle cx="195" cy="42"  r="0.6" fill="white" opacity="0.60"/>
+  <circle cx="267" cy="18"  r="1.0" fill="white" opacity="0.85"/>
+  <circle cx="338" cy="35"  r="0.7" fill="white" opacity="0.65"/>
+  <circle cx="455" cy="22"  r="0.6" fill="white" opacity="0.70"/>
+  <circle cx="510" cy="12"  r="0.9" fill="white" opacity="0.80"/>
+  <circle cx="572" cy="40"  r="0.7" fill="white" opacity="0.65"/>
+  <circle cx="625" cy="10"  r="1.1" fill="white" opacity="0.90"/>
+  <circle cx="672" cy="48"  r="0.6" fill="white" opacity="0.60"/>
+  <circle cx="762" cy="20"  r="0.9" fill="white" opacity="0.80"/>
+  <circle cx="118" cy="55"  r="0.5" fill="white" opacity="0.50"/>
+  <circle cx="443" cy="52"  r="0.5" fill="white" opacity="0.50"/>
+  <circle cx="700" cy="55"  r="0.5" fill="white" opacity="0.50"/>
+  <circle cx="550" cy="60"  r="0.4" fill="white" opacity="0.45"/>
+  <circle cx="250" cy="60"  r="0.5" fill="white" opacity="0.50"/>
+  <circle cx="650" cy="38"  r="0.6" fill="white" opacity="0.60"/>
+  <circle cx="86"  cy="70"  r="0.4" fill="white" opacity="0.40"/>
+  <circle cx="350" cy="68"  r="0.4" fill="white" opacity="0.40"/>
+  <circle cx="720" cy="68"  r="0.4" fill="white" opacity="0.40"/>
+
+  <!-- Crescent moon (upper right) -->
+  <circle cx="718" cy="45" r="22" fill="#FFF9C4"/>
+  <circle cx="730" cy="39" r="20" fill="#020B18"/>
+
+  <!-- Faint moon reflection on water -->
+  <ellipse cx="718" cy="228" rx="7" ry="12" fill="#FFF9C4" opacity="0.10"/>
+
+  <!-- Back wave (darker, moves right) -->
+  <path d="
+    M -200,168 C -100,156  0,180 100,168
+    C  200,156 300,180 400,168
+    C  500,156 600,180 700,168
+    C  800,156 900,180 1000,168
+    L 1000,240 L -200,240 Z
+  " fill="url(#wv1)" opacity="0.70">
+    <animateTransform attributeName="transform" type="translate"
+      from="0,0" to="200,0" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Front wave (brighter cyan, moves left) -->
+  <path d="
+    M -200,178 C -100,166  0,190 100,178
+    C  200,166 300,190 400,178
+    C  500,166 600,190 700,178
+    C  800,166 900,190 1000,178
+    L 1000,240 L -200,240 Z
+  " fill="url(#wv2)">
+    <animateTransform attributeName="transform" type="translate"
+      from="0,0" to="-200,0" dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Wave foam line -->
+  <path d="
+    M -200,176 C -100,164  0,188 100,176
+    C  200,164 300,188 400,176
+    C  500,164 600,188 700,176
+    C  800,164 900,188 1000,176
+  " fill="none" stroke="white" stroke-width="1.5" opacity="0.28">
+    <animateTransform attributeName="transform" type="translate"
+      from="0,0" to="-200,0" dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Sailing boat (bobs with the waves) -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,-4; 0,0; 0,4; 0,0"
+      dur="3s" keyTimes="0;0.25;0.5;0.75;1" repeatCount="indefinite"/>
+
+    <!-- Hull -->
+    <polygon points="360,168 440,168 431,188 369,188" fill="#4A2E0E"/>
+    <!-- Deck rail -->
+    <rect x="357" y="163" width="86" height="7" rx="2" fill="#6B4216"/>
+    <!-- Mast -->
+    <rect x="398" y="104" width="4" height="61" fill="#7A5025"/>
+    <!-- Main sail (right of mast) -->
+    <polygon points="400,106 437,164 400,164" fill="rgba(230,242,255,0.93)"/>
+    <!-- Jib sail (left of mast) -->
+    <polygon points="400,110 373,161 400,161" fill="rgba(215,232,255,0.82)"/>
+    <!-- Flag at masthead (neon cyan — data science accent) -->
+    <polygon points="400,104 416,111 400,118" fill="#00D9FF"/>
+    <!-- Porthole detail -->
+    <circle cx="416" cy="176" r="4" fill="none"
+            stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+  </g>
+</svg>
