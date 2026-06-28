@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 160" width="760" height="160">
+  <defs>
+    <style>
+      @import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap);
+    </style>
+
+    <!-- Static gold face gradient -->
+    <linearGradient id="goldFace" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#FFF176"/>
+      <stop offset="40%"  stop-color="#FFD600"/>
+      <stop offset="100%" stop-color="#F9A800"/>
+    </linearGradient>
+
+    <!-- Animated shimmer gradient that sweeps left to right -->
+    <linearGradient id="shimmer" x1="-100%" y1="0%" x2="0%" y2="0%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#FFD600" stop-opacity="0"/>
+      <stop offset="45%"  stop-color="#FFFDE0" stop-opacity="0.85"/>
+      <stop offset="55%"  stop-color="#FFFDE0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FFD600" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        from="-760 0" to="760 0"
+        dur="2.8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Glow pulse filter -->
+    <filter id="glow" x="-10%" y="-20%" width="120%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- === STEPHAN === -->
+  <!-- Extrusion depth layers -->
+  <text x="380" y="62" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="#2A1000">STEPHAN</text>
+  <text x="379" y="61" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="#4A2200">STEPHAN</text>
+  <text x="378" y="60" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="#6B3400">STEPHAN</text>
+  <text x="377" y="59" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="#8C4A00">STEPHAN</text>
+  <text x="376" y="58" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="#B06000">STEPHAN</text>
+  <text x="375" y="57" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="#CC7A00">STEPHAN</text>
+  <!-- Gold face -->
+  <text x="374" y="56" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="url(#goldFace)" filter="url(#glow)">STEPHAN</text>
+  <!-- Shimmer overlay -->
+  <text x="374" y="56" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="url(#shimmer)">STEPHAN</text>
+
+  <!-- === PENTCHEV === -->
+  <text x="380" y="132" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="#2A1000">PENTCHEV</text>
+  <text x="379" y="131" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="#4A2200">PENTCHEV</text>
+  <text x="378" y="130" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="#6B3400">PENTCHEV</text>
+  <text x="377" y="129" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="#8C4A00">PENTCHEV</text>
+  <text x="376" y="128" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="#B06000">PENTCHEV</text>
+  <text x="375" y="127" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="#CC7A00">PENTCHEV</text>
+  <!-- Gold face -->
+  <text x="374" y="126" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="url(#goldFace)" filter="url(#glow)">PENTCHEV</text>
+  <!-- Shimmer overlay -->
+  <text x="374" y="126" font-family="'Press Start 2P', monospace" font-size="38" text-anchor="middle" fill="url(#shimmer)">PENTCHEV</text>
+
+</svg>
