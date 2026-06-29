@@ -30,6 +30,14 @@
 
 ---
 
+## Master's Research Capstone
+
+**[Mixed-Frequency Forecasting of Energy CPI: MIDAS Models, LASSO Regularisation, and State-Space Extensions](https://github.com/stefhooy/midas_capstone)**
+
+Research capstone benchmarking MIDAS regression variants against ARIMAX, XGBoost, and LSTM for forecasting US consumer energy inflation from weekly crude oil prices. Introduces three novel model extensions (CLM-SS, LASSO-MIDAS, Kernel U-MIDAS), uses a three-layer expanding-window validation design, and identifies a 5–7 week oil-to-consumer-energy transmission window. Built in R with the midasr package.
+
+---
+
 ## Tech Stack
 
 **Languages**
