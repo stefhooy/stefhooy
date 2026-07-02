@@ -24,7 +24,7 @@
 
 <br/>
 
-*My projects don't follow a single theme: I've built a Bayesian model for predicting box office outcomes, a real-time crypto pipeline, a deployed Streamlit app for expense tracking, and a 2D platformer game. I just tend to go deep on whatever I find interesting at the time.*
+*My projects don't follow a single theme: I've built a Bayesian model for predicting box office outcomes, a real-time crypto pipeline, a movie recommender trained on millions of ratings, an MLOps pipeline for house price prediction, an AI travel planner, and a 2D platformer game. I just tend to go deep on whatever I find interesting at the time.*
 
 </div>
 
@@ -66,6 +66,7 @@ Research capstone benchmarking MIDAS regression variants against ARIMAX, XGBoost
 ![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Polars](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)
 
 **MLOps**
 
