@@ -110,19 +110,19 @@ Research capstone benchmarking MIDAS regression variants against ARIMAX, XGBoost
   Live Streamlit app for tracking spending across countries and currencies. Started as a personal tool during my winter 2024 exchange in Budapest, rebuilt in 2026 with multilingual support (EN/FR/ES), geographic spend maps, file import/export, and multi-currency conversion.  
   Deployed: [budget-calculator-tracker.streamlit.app](https://budget-calculator-tracker.streamlit.app/)
 
-- **[MLOps Training Pipeline](https://github.com/jclujan/my-project1-mlops)**  
-  Modular ML system with clean data/training/evaluation separation, full test suite, and CI integration, built to work like something you'd actually maintain.  
+- **[Smart Residential Price Estimation -Production MLOps Pipeline](https://github.com/jclujan/my-project1-mlops)**  
+  End-to-end MLOps system that predicts Ames, Iowa house prices from structured property data using a LassoCV regression model (R² ≈ 0.80–0.89). Built as a production-grade pipeline, not a notebook, with modular preprocessing, feature engineering, and training stages orchestrated via main.py, experiment tracking and model registry through Weights & Biases, and a FastAPI service exposing /health and /predict endpoints. Includes Docker containerization, GitHub Actions CI/CD (test and build on PR, auto-deploy to Render on release), reproducible conda-lock environments, and 54 tests at 84% coverage. Built for a graduate MLOps course to demonstrate reproducibility, monitoring, and deployment practices beyond model accuracy alone.  
   Deployed on Render: [API docs](https://my-project1-mlops.onrender.com/docs#/default/predict_predict_post)
 
 - **[Personal Finance Analytics Package](https://github.com/stefhooy/pocketwise-finance)**  
-  Python package for personal finance tracking with a companion Streamlit front-end.  
+  Python package that categorizes bank CSV transactions using a regex rule engine and produces monthly budget summaries. Immutable dataclasses, CLI via argparse, pytest-tested, packaged with uv and published to TestPyPI. Backend library for a companion [Streamlit app](https://github.com/stefhooy/pocketwise-streamlit-app). Built as a Python Data Analysis II course project.  
   TestPyPI: [pocketwise-finance](https://test.pypi.org/project/pocketwise-finance/)
 
 - **Crypto Streaming Analytics**  
   Real-time pipeline using Apache NiFi + MinIO + Python for ingesting and analyzing crypto streams.
 
-- **[Tower of IE – Pygame Platformer](https://github.com/stefhooy/tower-of-ie-wizard-climb)**  
-  2D platformer game. Event loops, collision detection, game state. Built as a pure interest project.  
+- **[Tower of IE: The Wizard Climb. Browser-playbale 2D platformer built with Python and Pygame](https://github.com/stefhooy/tower-of-ie-wizard-climb)**  
+  A 2D vertical platformer built with Python and Pygame, playable in-browser via WebAssembly (Pygbag). Climb a tower by conjuring platforms in real time, with physics, collision detection, camera scrolling, and a JSON-based leaderboard. Modular OOP architecture.  
   Deployed on [itch.io](https://stefhooy.itch.io/tower-of-ie-the-wizard-climb).
 
 ---
@@ -130,7 +130,7 @@ Research capstone benchmarking MIDAS regression variants against ARIMAX, XGBoost
 ## Currently Working On
 
 - **[Marvin – Reinforced AI Chess Bot](https://github.com/stefhooy/chess-rl-bot)**  
-  A chess bot trained with reinforcement learning, teaching it to evaluate positions, plan ahead, and make better decisions to win.
+  AlphaZero-style chess engine in PyTorch: dual-head ResNet policy/value network trained via MCTS self-play RL, with optional supervised pretraining on grandmaster PGN games and a Flask web UI to play against it with live Elo tracking. Includes a pytest suite.
 
 ---
 
