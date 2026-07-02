@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Looping header banner -->
-<img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/header.webp" width="900" alt="Header banner" />
+<img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/assets/banner/header.webp" width="900" alt="Header banner" />
 
 <!-- Name in Nabla font -->
 <img src="https://readme-typing-svg.demolab.com?font=Nabla&size=55&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=900&height=80&lines=Stephan+Pentchev" alt="Stephan Pentchev" />
@@ -10,15 +10,15 @@
 
 <!-- School logos -->
 <a href="https://www.uni-corvinus.hu/en/" target="_blank">
-  <img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/corvinus.png" height="60" alt="Corvinus University Budapest" title="Corvinus University Budapest" />
+  <img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/assets/logos/corvinus.png" height="60" alt="Corvinus University Budapest" title="Corvinus University Budapest" />
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.hec.ca/en/" target="_blank">
-  <img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/hec_montreal%20(1).png" height="60" alt="HEC Montréal" title="HEC Montréal" />
+  <img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/assets/logos/hec_montreal%20(1).png" height="60" alt="HEC Montréal" title="HEC Montréal" />
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.ie.edu/university/studies/academic-programs/master-business-analytics-data-science/" target="_blank">
-  <img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/ie_university%20(1).png" height="60" alt="IE University School of Science & Technology" title="IE University School of Science & Technology" />
+  <img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/assets/logos/ie_university%20(1).png" height="60" alt="IE University School of Science & Technology" title="IE University School of Science & Technology" />
 </a>
 
 <br/><br/>
