@@ -1,10 +1,7 @@
 <div align="center">
 
 <!-- Looping header banner -->
-<img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/assets/banner/header.webp" width="900" alt="Header banner" />
-
-<!-- Name in Nabla font -->
-<img src="https://readme-typing-svg.demolab.com?font=Nabla&size=55&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=900&height=80&lines=Stephan+Pentchev" alt="Stephan Pentchev" />
+<img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/assets/banner/header_nabla_true.webp" width="900" alt="Header banner" />
 
 ### Education
 
