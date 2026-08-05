@@ -3,7 +3,13 @@
 <!-- Looping header banner -->
 <img src="https://raw.githubusercontent.com/stefhooy/stefhooy/main/assets/banner/header_nabla_true.webp" width="900" alt="Header banner" />
 
-### Education
+<br/>
+
+### 🎮 Data Analyst @ Gameloft Sofia
+
+**Master's in Business Analytics & Data Science · IE University of Science and Technology · Graduate**
+
+<br/>
 
 <!-- School logos -->
 <a href="https://www.uni-corvinus.hu/en/" target="_blank">
@@ -19,10 +25,6 @@
 </a>
 
 <br/><br/>
-
-**Master's in Business Analytics & Data Science · IE University of Science and Technology · Final Term · Advanced AI**
-
-<br/>
 
 *My projects don't follow a single theme: I've built a Bayesian model for predicting box office outcomes, a real-time crypto pipeline, a movie recommender trained on millions of ratings, an MLOps pipeline for house price prediction, an AI travel planner, and a 2D platformer game. I just tend to go deep on whatever I find interesting at the time.*
 
