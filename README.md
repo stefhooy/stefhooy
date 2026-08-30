@@ -59,6 +59,7 @@ Research capstone benchmarking MIDAS regression variants against ARIMAX, XGBoost
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![Gemini API](https://img.shields.io/badge/Gemini%20API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
 ![pgmpy](https://img.shields.io/badge/pgmpy-00A896?style=for-the-badge&logoColor=white)
 
 **Data Engineering**
@@ -66,6 +67,7 @@ Research capstone benchmarking MIDAS regression variants against ARIMAX, XGBoost
 ![Apache NiFi](https://img.shields.io/badge/Apache%20NiFi-728E9B?style=for-the-badge&logo=apache&logoColor=white)
 ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
 ![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Polars](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)
@@ -82,6 +84,7 @@ Research capstone benchmarking MIDAS regression variants against ARIMAX, XGBoost
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -108,6 +111,10 @@ Research capstone benchmarking MIDAS regression variants against ARIMAX, XGBoost
 ---
 
 ## Projects on GitHub
+
+- **[Ludo: AI Game Analyst, Agentic SQL & RAG over Game Market Data](https://github.com/stefhooy/full_stack_project)**  
+  AI agent that answers video game market questions by writing and executing real SQL against a database. Uses LangGraph agent routing, schema retrieval via embeddings (RAG) instead of prompt-stuffing, and a read-only connection guarded by an independent SQL parser. Tracks a measured self-correction rate and real per-request cost accounting (Groq pricing), with hand-labeled recall evaluations and a golden question set validated in CI (1.000 recall at production top-k). Ships an MCP server exposing the same tools to Claude Desktop/Code or Cursor. Backend: Python, FastAPI, LangChain/LangGraph, DuckDB, Docker. Frontend: Next.js, React, TypeScript, Tailwind, Recharts.  
+  Deployed: [full-stack-project-sepia-nine.vercel.app](https://full-stack-project-sepia-nine.vercel.app/)
 
 - **[Hermes - AI European Travel Planner](https://github.com/stefhooy/euro_ai_agent)**  
   AI travel agent that builds personalised multi-city European itineraries. Scores 80 European cities using a proximity-aware scoring system (activity match, budget fit, seasonality, and geographic routing from your departure city), estimates transport across flights, trains, and buses, pulls live Wikipedia descriptions and Open-Meteo weather data, and generates a 12-month pricing calendar. Runs fully locally using Ollama (llama3.1:8b) with no paid API keys required. Built with Python, Streamlit, LangChain, and Plotly. 90 automated tests.
