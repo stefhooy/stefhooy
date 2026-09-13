@@ -30,17 +30,17 @@ Movie recommender combining a sequential GRU (predicts and re-ranks the next wat
 [GitHub](https://github.com/em-ech/reverie)
 
 **Smart Residential Price Estimation: Production-Oriented MLOps Pipeline**  
-End-to-end pipeline predicting Ames, Iowa house prices (LassoCV, R² 0.80–0.89) built as a modular, tested system rather than a notebook: experiment tracking and model registry via Weights & Biases, a FastAPI service with `/health` and `/predict` endpoints, Docker containerization, and GitHub Actions CI/CD that tests and builds on PR and auto-deploys to Render on release. 54 tests, 84% coverage.  
+End-to-end pipeline predicting Ames, Iowa house prices (LassoCV, R² 0.80-0.89) built as a modular, tested system rather than a notebook: experiment tracking and model registry via Weights & Biases, a FastAPI service with `/health` and `/predict` endpoints, Docker containerization, and GitHub Actions CI/CD that tests and builds on PR and auto-deploys to Render on release. 54 tests, 84% coverage.  
 `Python · scikit-learn · FastAPI · Docker · GitHub Actions · Weights & Biases`  
 [GitHub](https://github.com/jclujan/my-project1-mlops) · [Live](https://my-project1-mlops.onrender.com/docs) *(Render free tier: first request may take a few seconds to wake up)*
 
 **The Blockbuster Formula: Bayesian Box Office Predictor**  
-Bayesian Network model predicting box office outcomes (Flop to Blockbuster) on 3,278 films (2000–2025) from TMDb. Full pipeline: API collection, feature engineering (actor prestige scoring, budget tiers, release windows), structure learning via the PC algorithm, and a baseline ML comparison.  
+Bayesian Network model predicting box office outcomes (Flop to Blockbuster) on 3,278 films (2000-2025) from TMDb. Full pipeline: API collection, feature engineering (actor prestige scoring, budget tiers, release windows), structure learning via the PC algorithm, and a baseline ML comparison.  
 `Python · pgmpy · XGBoost · Streamlit`  
 [GitHub](https://github.com/stefhooy/box-office-bayesian) · [Live](https://blockbuster-bayesian.streamlit.app/) *(Streamlit Community Cloud: click through the wake-up screen if the app is asleep)*
 
 **IE Sustainability Datathon: 1st Place** *(team project)*  
-Won a time-bound datathon analyzing aviation traffic and CO₂ emissions across European airspace using EUROCONTROL data (2010–2025), identifying trends between flight activity and environmental impact.  
+Won a time-bound datathon analyzing aviation traffic and CO₂ emissions across European airspace using EUROCONTROL data (2010-2025), identifying trends between flight activity and environmental impact.  
 `Python · Tableau`  
 [GitHub](https://github.com/stefhooy/datathon-2025)
 
@@ -127,20 +127,20 @@ Research capstone benchmarking MIDAS regression variants against ARIMAX, XGBoost
 ## Professional Experience
 
 **Data Analyst, Monetization**  
-Gameloft Sofia Studio · Aug 2026 – Present  
+Gameloft Sofia Studio · Aug 2026 - Present  
 Analyzes 300+ GB of gameplay and monetization data (SQL, BigQuery) to evaluate campaigns, pricing changes, player behaviour, and the in-game economy; validates telemetry against spec and evaluates the reliability of a BigQuery-based AI agent's output.
 
 **Data Engineering & Analytics Intern, Pricing & Risk**  
-MPower Ventures · Apr 2026 – Jul 2026  
+MPower Ventures · Apr 2026 - Jul 2026  
 Built Python/SQL data pipelines and reusable simulation and optimization workflows integrating FX, inflation, and pricing data to evaluate pricing and risk strategies across FX depreciation scenarios of up to 20%.
 
 **Data Analyst**  
-Streamwise · Jan 2025 – May 2026  
+Streamwise · Jan 2025 - May 2026  
 Evaluated ML model outputs in Python across a 300-user beta, analyzing detection performance, latency, and failure patterns to support model and product improvements.
 
 **Business Analyst I Intern, Operations & Planning**  
-Intact Financial Corporation · May 2025 – Aug 2025  
-Built a ServiceNow–Jira operational dashboard and automated 300+ Excel reports, cutting reporting time by roughly 30%. 1st place, Intact National Intern Case Competition (200+ participants).
+Intact Financial Corporation · May 2025 - Aug 2025  
+Built a ServiceNow-Jira operational dashboard and automated 300+ Excel reports, cutting reporting time by roughly 30%. 1st place, Intact National Intern Case Competition (200+ participants).
 
 ---
 
@@ -151,7 +151,7 @@ Built a ServiceNow–Jira operational dashboard and automated 300+ Excel reports
 </a>
 
 **MSc in Business Analytics & Data Science**  
-IE University School of Science & Technology, Madrid · Sept 2025 – Jul 2026  
+IE University School of Science & Technology, Madrid · Sept 2025 - Jul 2026  
 Advanced Tech Track (Top 15%) · IE Collaboration Scholarship · Advanced AI Concentration
 
 <a href="https://www.hec.ca/en/" target="_blank">
@@ -159,7 +159,7 @@ Advanced Tech Track (Top 15%) · IE Collaboration Scholarship · Advanced AI Con
 </a>
 
 **BBA, Business Analytics & Data Science**  
-HEC Montréal · Aug 2022 – May 2025  
+HEC Montréal · Aug 2022 - May 2025  
 Bilingual program (French & English)
 
 <a href="https://www.uni-corvinus.hu/en/" target="_blank">
@@ -167,7 +167,7 @@ Bilingual program (French & English)
 </a>
 
 **Exchange Semester, Business Administration**  
-Corvinus University of Budapest · Feb 2024 – Jun 2024
+Corvinus University of Budapest · Feb 2024 - Jun 2024
 
 ---
 
@@ -210,6 +210,14 @@ AlphaZero-style chess engine in PyTorch: a dual-head ResNet policy/value network
 2D vertical platformer built with Python and Pygame, playable in-browser via WebAssembly (Pygbag). Climb a tower by conjuring platforms in real time, with physics, collision detection, camera scrolling, and a JSON-based leaderboard. Modular OOP architecture.  
 `Python · Pygame`  
 [GitHub](https://github.com/stefhooy/tower-of-ie-wizard-climb) · [Play it](https://stefhooy.itch.io/tower-of-ie-the-wizard-climb)
+
+---
+
+## Outside the Code
+
+🎵 **Music:** EDM · Rock · Indie · Alternative · Jazz · Disco · 80s Pop · Huge Queen fan  
+🏐🏀 **Sports:** Volleyball & Basketball (currently playing basketball in a recreational league in Sofia)  
+📷🎬 Also into photography and video editing
 
 ---
 
